@@ -20,6 +20,8 @@ body {
     justify-content: space-between;
     border-radius: 3.7rem;
     padding: .8rem 1.25rem;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .avatar-img-name {
