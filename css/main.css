@@ -1,0 +1,52 @@
+html {
+    font-size: 62.5%;
+}
+* { 
+    box-sizing: border-box;
+}
+body {
+    background: #CBE1F1;
+    font-family: "Nunito";
+    margin: 3em;
+    display: grid;
+    align-content: center;
+    height: 100vh;
+}
+
+.avatar-container {
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3.7rem;
+    padding: .8rem 1.25rem;
+}
+
+.avatar-img-name {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.avatar-img-name img {
+    width: 5.2rem;
+    height: 5.2rem;
+    object-fit: cover;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.green-btn {
+    height: 2rem;
+    width: 2rem;
+    background-color: #5DBC3C;
+    margin: 0 1.5rem 0 0;
+}
+
+.avatar-img-name img, 
+.green-btn {
+    border-radius: 50%;
+}
